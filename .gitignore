@@ -1,0 +1,39 @@
+# ---- 构建目录 ----
+build/
+build-*/
+cmake-build-*/
+out/
+
+# ---- CMake 在源码目录里生成的文件（in-source build） ----
+/CMakeCache.txt
+/CMakeFiles/
+/cmake_install.cmake
+/Makefile
+/install_manifest.txt
+/compile_commands.json
+/CMakeUserPresets.json
+
+# ---- 编译产物 ----
+*.o
+*.obj
+*.d
+*.a
+*.so
+*.so.*
+*.dylib
+*.exe
+*.out
+armor_demo
+
+# ---- IDE / 编辑器 ----
+.vscode/
+.idea/
+.clangd/
+.cache/
+*.swp
+*~
+
+# ---- 系统文件 ----
+.DS_Store
+Thumbs.db
+
